@@ -13,8 +13,8 @@
  * \warning this is a generated file, do not modify it
  * \warning this is a prototype and not production code
  */
-#ifndef ELEKTRA_GEN_E130C6A0_BA0E_4895_88D8_3B4FB5528326_GENOPT_H
-#define ELEKTRA_GEN_E130C6A0_BA0E_4895_88D8_3B4FB5528326_GENOPT_H
+#ifndef ELEKTRA_GEN_5AFE36F3_392F_4A3C_A11A_59FD1B158794_GENOPT_H
+#define ELEKTRA_GEN_5AFE36F3_392F_4A3C_A11A_59FD1B158794_GENOPT_H
 
 #include "kdb.h"
 
@@ -46,5 +46,5 @@ const char *elektraGenHelpText();
 }
 #endif
 
-#endif // ELEKTRA_GEN_E130C6A0_BA0E_4895_88D8_3B4FB5528326_GENOPT_H
+#endif // ELEKTRA_GEN_5AFE36F3_392F_4A3C_A11A_59FD1B158794_GENOPT_H
 

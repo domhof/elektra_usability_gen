@@ -70,14 +70,14 @@ void process_file(KeySet * conf, char * file)
 
     close(fd);
 
-    if(!getSwWcShowNoDefaultArgs(conf) || getSwWcShowLines(conf))
+    if(!elektraGetSwWcShowNoDefaultArgs(conf) || elektraGetSwWcShowLines(conf))
     {
-        printf ("%c%d", getSwWcShowSeparator(conf), lines);
+        printf ("%c%d", elektraGetSwWcShowSeparator(conf), lines);
     }
 
-    if(!getSwWcShowNoDefaultArgs(conf) || getSwWcShowWords(conf))
+    if(!elektraGetSwWcShowNoDefaultArgs(conf) || elektraGetSwWcShowWords(conf))
     {
-        printf ("%c%d", getSwWcShowSeparator(conf), words);
+        printf ("%c%d", elektraGetSwWcShowSeparator(conf), words);
     }
 
     printf (" %s\n", file);

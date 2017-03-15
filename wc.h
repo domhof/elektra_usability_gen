@@ -13,8 +13,8 @@
  * \warning this is a generated file, do not modify it
  * \warning this is a prototype and not production code
  */
-#ifndef ELEKTRA_GEN_44A90D34_74FD_435E_97B1_55A3D57B256E_H
-#define ELEKTRA_GEN_44A90D34_74FD_435E_97B1_55A3D57B256E_H
+#ifndef ELEKTRA_GEN_1321C402_9E27_4BFF_A862_8EDC9A6E6F41_H
+#define ELEKTRA_GEN_1321C402_9E27_4BFF_A862_8EDC9A6E6F41_H
 
 #include "kdb.h"
 #include "kdbtypes.h"
@@ -70,12 +70,12 @@ static inline int bool_from_string(const char *s)
  * false
 
  *
- * \see setSwWcShowBytes
+ * \see elektraSetSwWcShowBytes
  *
  * \return the value of the parameter, default if it could not be found
  * \param ks the keyset where the parameter is searched
  */
-static inline kdb_boolean_t getSwWcShowBytes(KeySet *ks)
+static inline kdb_boolean_t elektraGetSwWcShowBytes(KeySet *ks)
 {
 	Key * searchKey = keyNew("/sw/wc/show/bytes",
 		KEY_CASCADING_NAME, KEY_END);
@@ -103,12 +103,12 @@ static inline kdb_boolean_t getSwWcShowBytes(KeySet *ks)
  * false
 
  *
- * \see setSwWcShowBytes
+ * \see elektraSetSwWcShowBytes
  *
  * \param ks the keyset where the parameter is added or replaced
  * \param n is the value to set in the parameter
  */
-static inline void setSwWcShowBytes(KeySet *ks, kdb_boolean_t n)
+static inline void elektraSetSwWcShowBytes(KeySet *ks, kdb_boolean_t n)
 {
 	Key * found = ksLookupByName(ks, "/sw/wc/show/bytes", 0);
 	const char *s = bool_to_string(n);
@@ -135,12 +135,12 @@ static inline void setSwWcShowBytes(KeySet *ks, kdb_boolean_t n)
  * false
 
  *
- * \see setSwWcShowWords
+ * \see elektraSetSwWcShowWords
  *
  * \return the value of the parameter, default if it could not be found
  * \param ks the keyset where the parameter is searched
  */
-static inline kdb_boolean_t getSwWcShowWords(KeySet *ks)
+static inline kdb_boolean_t elektraGetSwWcShowWords(KeySet *ks)
 {
 	Key * searchKey = keyNew("/sw/wc/show/words",
 		KEY_CASCADING_NAME, KEY_END);
@@ -168,12 +168,12 @@ static inline kdb_boolean_t getSwWcShowWords(KeySet *ks)
  * false
 
  *
- * \see setSwWcShowWords
+ * \see elektraSetSwWcShowWords
  *
  * \param ks the keyset where the parameter is added or replaced
  * \param n is the value to set in the parameter
  */
-static inline void setSwWcShowWords(KeySet *ks, kdb_boolean_t n)
+static inline void elektraSetSwWcShowWords(KeySet *ks, kdb_boolean_t n)
 {
 	Key * found = ksLookupByName(ks, "/sw/wc/show/words", 0);
 	const char *s = bool_to_string(n);
@@ -200,12 +200,12 @@ static inline void setSwWcShowWords(KeySet *ks, kdb_boolean_t n)
  * false
 
  *
- * \see setSwWcShowLines
+ * \see elektraSetSwWcShowLines
  *
  * \return the value of the parameter, default if it could not be found
  * \param ks the keyset where the parameter is searched
  */
-static inline kdb_boolean_t getSwWcShowLines(KeySet *ks)
+static inline kdb_boolean_t elektraGetSwWcShowLines(KeySet *ks)
 {
 	Key * searchKey = keyNew("/sw/wc/show/lines",
 		KEY_CASCADING_NAME, KEY_END);
@@ -233,12 +233,12 @@ static inline kdb_boolean_t getSwWcShowLines(KeySet *ks)
  * false
 
  *
- * \see setSwWcShowLines
+ * \see elektraSetSwWcShowLines
  *
  * \param ks the keyset where the parameter is added or replaced
  * \param n is the value to set in the parameter
  */
-static inline void setSwWcShowLines(KeySet *ks, kdb_boolean_t n)
+static inline void elektraSetSwWcShowLines(KeySet *ks, kdb_boolean_t n)
 {
 	Key * found = ksLookupByName(ks, "/sw/wc/show/lines", 0);
 	const char *s = bool_to_string(n);
@@ -265,12 +265,12 @@ static inline void setSwWcShowLines(KeySet *ks, kdb_boolean_t n)
  * false
 
  *
- * \see setSwWcShowChars
+ * \see elektraSetSwWcShowChars
  *
  * \return the value of the parameter, default if it could not be found
  * \param ks the keyset where the parameter is searched
  */
-static inline kdb_boolean_t getSwWcShowChars(KeySet *ks)
+static inline kdb_boolean_t elektraGetSwWcShowChars(KeySet *ks)
 {
 	Key * searchKey = keyNew("/sw/wc/show/chars",
 		KEY_CASCADING_NAME, KEY_END);
@@ -298,12 +298,12 @@ static inline kdb_boolean_t getSwWcShowChars(KeySet *ks)
  * false
 
  *
- * \see setSwWcShowChars
+ * \see elektraSetSwWcShowChars
  *
  * \param ks the keyset where the parameter is added or replaced
  * \param n is the value to set in the parameter
  */
-static inline void setSwWcShowChars(KeySet *ks, kdb_boolean_t n)
+static inline void elektraSetSwWcShowChars(KeySet *ks, kdb_boolean_t n)
 {
 	Key * found = ksLookupByName(ks, "/sw/wc/show/chars", 0);
 	const char *s = bool_to_string(n);
@@ -330,12 +330,12 @@ static inline void setSwWcShowChars(KeySet *ks, kdb_boolean_t n)
  * false
 
  *
- * \see setSwWcShowMaxLineLength
+ * \see elektraSetSwWcShowMaxLineLength
  *
  * \return the value of the parameter, default if it could not be found
  * \param ks the keyset where the parameter is searched
  */
-static inline kdb_boolean_t getSwWcShowMaxLineLength(KeySet *ks)
+static inline kdb_boolean_t elektraGetSwWcShowMaxLineLength(KeySet *ks)
 {
 	Key * searchKey = keyNew("/sw/wc/show/max_line_length",
 		KEY_CASCADING_NAME, KEY_END);
@@ -363,12 +363,12 @@ static inline kdb_boolean_t getSwWcShowMaxLineLength(KeySet *ks)
  * false
 
  *
- * \see setSwWcShowMaxLineLength
+ * \see elektraSetSwWcShowMaxLineLength
  *
  * \param ks the keyset where the parameter is added or replaced
  * \param n is the value to set in the parameter
  */
-static inline void setSwWcShowMaxLineLength(KeySet *ks, kdb_boolean_t n)
+static inline void elektraSetSwWcShowMaxLineLength(KeySet *ks, kdb_boolean_t n)
 {
 	Key * found = ksLookupByName(ks, "/sw/wc/show/max_line_length", 0);
 	const char *s = bool_to_string(n);
@@ -395,12 +395,12 @@ static inline void setSwWcShowMaxLineLength(KeySet *ks, kdb_boolean_t n)
  * ' '
 
  *
- * \see setSwWcShowSeparator
+ * \see elektraSetSwWcShowSeparator
  *
  * \return the value of the parameter, default if it could not be found
  * \param ks the keyset where the parameter is searched
  */
-static inline kdb_char_t getSwWcShowSeparator(KeySet *ks)
+static inline kdb_char_t elektraGetSwWcShowSeparator(KeySet *ks)
 {
 	Key * searchKey = keyNew("/sw/wc/show/separator",
 		KEY_CASCADING_NAME, KEY_END);
@@ -428,12 +428,12 @@ static inline kdb_char_t getSwWcShowSeparator(KeySet *ks)
  * ' '
 
  *
- * \see setSwWcShowSeparator
+ * \see elektraSetSwWcShowSeparator
  *
  * \param ks the keyset where the parameter is added or replaced
  * \param n is the value to set in the parameter
  */
-static inline void setSwWcShowSeparator(KeySet *ks, kdb_char_t n)
+static inline void elektraSetSwWcShowSeparator(KeySet *ks, kdb_char_t n)
 {
 	Key * found = ksLookupByName(ks, "/sw/wc/show/separator", 0);
 	char s[100];
@@ -461,12 +461,12 @@ static inline void setSwWcShowSeparator(KeySet *ks, kdb_char_t n)
  * false
 
  *
- * \see setSwWcShowNoDefaultArgs
+ * \see elektraSetSwWcShowNoDefaultArgs
  *
  * \return the value of the parameter, default if it could not be found
  * \param ks the keyset where the parameter is searched
  */
-static inline kdb_boolean_t getSwWcShowNoDefaultArgs(KeySet *ks)
+static inline kdb_boolean_t elektraGetSwWcShowNoDefaultArgs(KeySet *ks)
 {
 	// override
 	Key * searchKey = keyNew("/sw/wc/show/lines",
@@ -527,12 +527,12 @@ static inline kdb_boolean_t getSwWcShowNoDefaultArgs(KeySet *ks)
  * false
 
  *
- * \see setSwWcShowNoDefaultArgs
+ * \see elektraSetSwWcShowNoDefaultArgs
  *
  * \param ks the keyset where the parameter is added or replaced
  * \param n is the value to set in the parameter
  */
-static inline void setSwWcShowNoDefaultArgs(KeySet *ks, kdb_boolean_t n)
+static inline void elektraSetSwWcShowNoDefaultArgs(KeySet *ks, kdb_boolean_t n)
 {
 	Key * found = ksLookupByName(ks, "/sw/wc/show/no_default_args", 0);
 	const char *s = bool_to_string(n);
@@ -559,12 +559,12 @@ static inline void setSwWcShowNoDefaultArgs(KeySet *ks, kdb_boolean_t n)
  * false
 
  *
- * \see setSwWcShowMinLineLength
+ * \see elektraSetSwWcShowMinLineLength
  *
  * \return the value of the parameter, default if it could not be found
  * \param ks the keyset where the parameter is searched
  */
-static inline kdb_boolean_t getSwWcShowMinLineLength(KeySet *ks)
+static inline kdb_boolean_t elektraGetSwWcShowMinLineLength(KeySet *ks)
 {
 	Key * searchKey = keyNew("/sw/wc/show/min_line_length",
 		KEY_CASCADING_NAME, KEY_END);
@@ -592,12 +592,12 @@ static inline kdb_boolean_t getSwWcShowMinLineLength(KeySet *ks)
  * false
 
  *
- * \see setSwWcShowMinLineLength
+ * \see elektraSetSwWcShowMinLineLength
  *
  * \param ks the keyset where the parameter is added or replaced
  * \param n is the value to set in the parameter
  */
-static inline void setSwWcShowMinLineLength(KeySet *ks, kdb_boolean_t n)
+static inline void elektraSetSwWcShowMinLineLength(KeySet *ks, kdb_boolean_t n)
 {
 	Key * found = ksLookupByName(ks, "/sw/wc/show/min_line_length", 0);
 	const char *s = bool_to_string(n);
@@ -614,6 +614,6 @@ static inline void setSwWcShowMinLineLength(KeySet *ks, kdb_boolean_t n)
 }
 
 
-#endif // ELEKTRA_GEN_44A90D34_74FD_435E_97B1_55A3D57B256E_H
+#endif // ELEKTRA_GEN_1321C402_9E27_4BFF_A862_8EDC9A6E6F41_H
 
 
