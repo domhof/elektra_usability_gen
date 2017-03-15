@@ -70,6 +70,7 @@ void process_file(KeySet * conf, char * file)
 
     close(fd);
 
+    
     if(!elektraGetSwWcShowNoDefaultArgs(conf) || elektraGetSwWcShowLines(conf))
     {
         printf ("%c%d", elektraGetSwWcShowSeparator(conf), lines);

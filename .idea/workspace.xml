@@ -14,7 +14,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73d90a2c-9893-49f9-88ae-4f285154c941" name="Default" comment="" />
+    <list default="true" id="73d90a2c-9893-49f9-88ae-4f285154c941" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wc.c" afterPath="$PROJECT_DIR$/wc.c" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,8 +76,8 @@
       <file leaf-file-name="wc.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wc.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="65" column="25" lean-forward="true" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+            <state relative-caret-position="270">
+              <caret line="72" column="4" lean-forward="false" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
                 <element signature="e#173#188#0" expanded="true" />
@@ -351,12 +353,12 @@
       <workItem from="1489519100285" duration="432000" />
       <workItem from="1489519723666" duration="6205000" />
       <workItem from="1489530287304" duration="1360000" />
-      <workItem from="1489571933635" duration="5155000" />
+      <workItem from="1489571933635" duration="5157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13152000" />
+    <option name="totallyTimeSpent" value="13154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -526,8 +528,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wc.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="65" column="25" lean-forward="true" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+        <state relative-caret-position="270">
+          <caret line="72" column="4" lean-forward="false" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
             <element signature="e#173#188#0" expanded="true" />
