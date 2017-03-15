@@ -5,7 +5,7 @@ add_custom_target(
         code_generation
         COMMAND /Users/dominik/Documents/xcode/Elektra/libelektra/src/tools/gen/gen ${CMAKE_CURRENT_SOURCE_DIR}/specification.ini /Users/dominik/Documents/xcode/Elektra/libelektra/src/tools/gen/template/genopt.h -o genopt.h
         COMMAND /Users/dominik/Documents/xcode/Elektra/libelektra/src/tools/gen/gen ${CMAKE_CURRENT_SOURCE_DIR}/specification.ini /Users/dominik/Documents/xcode/Elektra/libelektra/src/tools/gen/template/genopt.c -o genopt.c
-        COMMAND /Users/dominik/Documents/xcode/Elektra/libelektra/src/tools/gen/gen ${CMAKE_CURRENT_SOURCE_DIR}/specification.ini /Users/dominik/Documents/xcode/Elektra/libelektra/src/tools/gen/template/template.h > wc.h
+        COMMAND /Users/dominik/Documents/xcode/Elektra/libelektra/src/tools/gen/gen ${CMAKE_CURRENT_SOURCE_DIR}/specification.ini /Users/dominik/Documents/xcode/Elektra/libelektra/src/tools/gen/template/template.h > ${CMAKE_CURRENT_SOURCE_DIR}/wc.h
 )
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Werror")

@@ -35,10 +35,6 @@ kdb.h
 /Users/dominik/Documents/Jobs/Elektra/elektra_usability_gen/kdb.h
 
 /Users/dominik/Documents/Jobs/Elektra/elektra_usability_gen/wc.c
-wc.h
-/Users/dominik/Documents/Jobs/Elektra/elektra_usability_gen/wc.h
-genopt.h
-/Users/dominik/Documents/Jobs/Elektra/elektra_usability_gen/genopt.h
 sys/types.h
 -
 sys/stat.h
@@ -55,6 +51,10 @@ errno.h
 -
 ctype.h
 -
+wc.h
+/Users/dominik/Documents/Jobs/Elektra/elektra_usability_gen/wc.h
+genopt.h
+/Users/dominik/Documents/Jobs/Elektra/elektra_usability_gen/genopt.h
 
 /Users/dominik/Documents/Jobs/Elektra/elektra_usability_gen/wc.h
 kdb.h

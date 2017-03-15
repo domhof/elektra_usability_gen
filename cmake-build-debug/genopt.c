@@ -13,8 +13,8 @@
  * \warning this is a generated file, do not modify it
  * \warning this is a prototype and not production code
  */
-#ifndef ELEKTRA_GEN_366E1C22_B708_44C8_921A_893233C7EF00_GENOPT_C
-#define ELEKTRA_GEN_366E1C22_B708_44C8_921A_893233C7EF00_GENOPT_C
+#ifndef ELEKTRA_GEN_47147112_82F6_4E62_96AC_28C5B9970077_GENOPT_C
+#define ELEKTRA_GEN_47147112_82F6_4E62_96AC_28C5B9970077_GENOPT_C
 
 #ifdef __cplusplus
 #include "genopt.hpp"
@@ -268,5 +268,5 @@ int ksGetOpt(int argc, char **argv, KeySet *ks)
 }
 //extern "C"
 #endif
-#endif // ELEKTRA_GEN_366E1C22_B708_44C8_921A_893233C7EF00_GENOPT_C
+#endif // ELEKTRA_GEN_47147112_82F6_4E62_96AC_28C5B9970077_GENOPT_C
 

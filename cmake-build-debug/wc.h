@@ -13,8 +13,8 @@
  * \warning this is a generated file, do not modify it
  * \warning this is a prototype and not production code
  */
-#ifndef ELEKTRA_GEN_E31EBE21_CC2F_45F4_8388_ABB721F236D4_H
-#define ELEKTRA_GEN_E31EBE21_CC2F_45F4_8388_ABB721F236D4_H
+#ifndef ELEKTRA_GEN_94D30966_9D02_4CC3_B475_1EFE15E4FC54_H
+#define ELEKTRA_GEN_94D30966_9D02_4CC3_B475_1EFE15E4FC54_H
 
 #include "kdb.h"
 #include "kdbtypes.h"
@@ -70,12 +70,12 @@ static inline int bool_from_string(const char *s)
  * false
 
  *
- * \see set_sw_wc_show_bytes
+ * \see setSwWcShowBytes
  *
  * \return the value of the parameter, default if it could not be found
  * \param ks the keyset where the parameter is searched
  */
-static inline kdb_boolean_t get_sw_wc_show_bytes(KeySet *ks)
+static inline kdb_boolean_t getSwWcShowBytes(KeySet *ks)
 {
 	Key * searchKey = keyNew("/sw/wc/show/bytes",
 		KEY_CASCADING_NAME, KEY_END);
@@ -103,12 +103,12 @@ static inline kdb_boolean_t get_sw_wc_show_bytes(KeySet *ks)
  * false
 
  *
- * \see set_sw_wc_show_bytes
+ * \see setSwWcShowBytes
  *
  * \param ks the keyset where the parameter is added or replaced
  * \param n is the value to set in the parameter
  */
-static inline void set_sw_wc_show_bytes(KeySet *ks, kdb_boolean_t n)
+static inline void setSwWcShowBytes(KeySet *ks, kdb_boolean_t n)
 {
 	Key * found = ksLookupByName(ks, "/sw/wc/show/bytes", 0);
 	const char *s = bool_to_string(n);
@@ -135,12 +135,12 @@ static inline void set_sw_wc_show_bytes(KeySet *ks, kdb_boolean_t n)
  * false
 
  *
- * \see set_sw_wc_show_words
+ * \see setSwWcShowWords
  *
  * \return the value of the parameter, default if it could not be found
  * \param ks the keyset where the parameter is searched
  */
-static inline kdb_boolean_t get_sw_wc_show_words(KeySet *ks)
+static inline kdb_boolean_t getSwWcShowWords(KeySet *ks)
 {
 	Key * searchKey = keyNew("/sw/wc/show/words",
 		KEY_CASCADING_NAME, KEY_END);
@@ -168,12 +168,12 @@ static inline kdb_boolean_t get_sw_wc_show_words(KeySet *ks)
  * false
 
  *
- * \see set_sw_wc_show_words
+ * \see setSwWcShowWords
  *
  * \param ks the keyset where the parameter is added or replaced
  * \param n is the value to set in the parameter
  */
-static inline void set_sw_wc_show_words(KeySet *ks, kdb_boolean_t n)
+static inline void setSwWcShowWords(KeySet *ks, kdb_boolean_t n)
 {
 	Key * found = ksLookupByName(ks, "/sw/wc/show/words", 0);
 	const char *s = bool_to_string(n);
@@ -200,12 +200,12 @@ static inline void set_sw_wc_show_words(KeySet *ks, kdb_boolean_t n)
  * false
 
  *
- * \see set_sw_wc_show_lines
+ * \see setSwWcShowLines
  *
  * \return the value of the parameter, default if it could not be found
  * \param ks the keyset where the parameter is searched
  */
-static inline kdb_boolean_t get_sw_wc_show_lines(KeySet *ks)
+static inline kdb_boolean_t getSwWcShowLines(KeySet *ks)
 {
 	Key * searchKey = keyNew("/sw/wc/show/lines",
 		KEY_CASCADING_NAME, KEY_END);
@@ -233,12 +233,12 @@ static inline kdb_boolean_t get_sw_wc_show_lines(KeySet *ks)
  * false
 
  *
- * \see set_sw_wc_show_lines
+ * \see setSwWcShowLines
  *
  * \param ks the keyset where the parameter is added or replaced
  * \param n is the value to set in the parameter
  */
-static inline void set_sw_wc_show_lines(KeySet *ks, kdb_boolean_t n)
+static inline void setSwWcShowLines(KeySet *ks, kdb_boolean_t n)
 {
 	Key * found = ksLookupByName(ks, "/sw/wc/show/lines", 0);
 	const char *s = bool_to_string(n);
@@ -265,12 +265,12 @@ static inline void set_sw_wc_show_lines(KeySet *ks, kdb_boolean_t n)
  * false
 
  *
- * \see set_sw_wc_show_chars
+ * \see setSwWcShowChars
  *
  * \return the value of the parameter, default if it could not be found
  * \param ks the keyset where the parameter is searched
  */
-static inline kdb_boolean_t get_sw_wc_show_chars(KeySet *ks)
+static inline kdb_boolean_t getSwWcShowChars(KeySet *ks)
 {
 	Key * searchKey = keyNew("/sw/wc/show/chars",
 		KEY_CASCADING_NAME, KEY_END);
@@ -298,12 +298,12 @@ static inline kdb_boolean_t get_sw_wc_show_chars(KeySet *ks)
  * false
 
  *
- * \see set_sw_wc_show_chars
+ * \see setSwWcShowChars
  *
  * \param ks the keyset where the parameter is added or replaced
  * \param n is the value to set in the parameter
  */
-static inline void set_sw_wc_show_chars(KeySet *ks, kdb_boolean_t n)
+static inline void setSwWcShowChars(KeySet *ks, kdb_boolean_t n)
 {
 	Key * found = ksLookupByName(ks, "/sw/wc/show/chars", 0);
 	const char *s = bool_to_string(n);
@@ -330,12 +330,12 @@ static inline void set_sw_wc_show_chars(KeySet *ks, kdb_boolean_t n)
  * false
 
  *
- * \see set_sw_wc_show_max_line_length
+ * \see setSwWcShowMax_Line_Length
  *
  * \return the value of the parameter, default if it could not be found
  * \param ks the keyset where the parameter is searched
  */
-static inline kdb_boolean_t get_sw_wc_show_max_line_length(KeySet *ks)
+static inline kdb_boolean_t getSwWcShowMax_Line_Length(KeySet *ks)
 {
 	Key * searchKey = keyNew("/sw/wc/show/max_line_length",
 		KEY_CASCADING_NAME, KEY_END);
@@ -363,12 +363,12 @@ static inline kdb_boolean_t get_sw_wc_show_max_line_length(KeySet *ks)
  * false
 
  *
- * \see set_sw_wc_show_max_line_length
+ * \see setSwWcShowMax_Line_Length
  *
  * \param ks the keyset where the parameter is added or replaced
  * \param n is the value to set in the parameter
  */
-static inline void set_sw_wc_show_max_line_length(KeySet *ks, kdb_boolean_t n)
+static inline void setSwWcShowMax_Line_Length(KeySet *ks, kdb_boolean_t n)
 {
 	Key * found = ksLookupByName(ks, "/sw/wc/show/max_line_length", 0);
 	const char *s = bool_to_string(n);
@@ -395,12 +395,12 @@ static inline void set_sw_wc_show_max_line_length(KeySet *ks, kdb_boolean_t n)
  * ' '
 
  *
- * \see set_sw_wc_show_separator
+ * \see setSwWcShowSeparator
  *
  * \return the value of the parameter, default if it could not be found
  * \param ks the keyset where the parameter is searched
  */
-static inline kdb_char_t get_sw_wc_show_separator(KeySet *ks)
+static inline kdb_char_t getSwWcShowSeparator(KeySet *ks)
 {
 	Key * searchKey = keyNew("/sw/wc/show/separator",
 		KEY_CASCADING_NAME, KEY_END);
@@ -428,12 +428,12 @@ static inline kdb_char_t get_sw_wc_show_separator(KeySet *ks)
  * ' '
 
  *
- * \see set_sw_wc_show_separator
+ * \see setSwWcShowSeparator
  *
  * \param ks the keyset where the parameter is added or replaced
  * \param n is the value to set in the parameter
  */
-static inline void set_sw_wc_show_separator(KeySet *ks, kdb_char_t n)
+static inline void setSwWcShowSeparator(KeySet *ks, kdb_char_t n)
 {
 	Key * found = ksLookupByName(ks, "/sw/wc/show/separator", 0);
 	char s[100];
@@ -461,12 +461,12 @@ static inline void set_sw_wc_show_separator(KeySet *ks, kdb_char_t n)
  * false
 
  *
- * \see set_sw_wc_show_no_default_args
+ * \see setSwWcShowNo_Default_Args
  *
  * \return the value of the parameter, default if it could not be found
  * \param ks the keyset where the parameter is searched
  */
-static inline kdb_boolean_t get_sw_wc_show_no_default_args(KeySet *ks)
+static inline kdb_boolean_t getSwWcShowNo_Default_Args(KeySet *ks)
 {
 	// override
 	Key * searchKey = keyNew("/sw/wc/show/lines",
@@ -527,12 +527,12 @@ static inline kdb_boolean_t get_sw_wc_show_no_default_args(KeySet *ks)
  * false
 
  *
- * \see set_sw_wc_show_no_default_args
+ * \see setSwWcShowNo_Default_Args
  *
  * \param ks the keyset where the parameter is added or replaced
  * \param n is the value to set in the parameter
  */
-static inline void set_sw_wc_show_no_default_args(KeySet *ks, kdb_boolean_t n)
+static inline void setSwWcShowNo_Default_Args(KeySet *ks, kdb_boolean_t n)
 {
 	Key * found = ksLookupByName(ks, "/sw/wc/show/no_default_args", 0);
 	const char *s = bool_to_string(n);
@@ -559,12 +559,12 @@ static inline void set_sw_wc_show_no_default_args(KeySet *ks, kdb_boolean_t n)
  * false
 
  *
- * \see set_sw_wc_show_min_line_length
+ * \see setSwWcShowMin_Line_Length
  *
  * \return the value of the parameter, default if it could not be found
  * \param ks the keyset where the parameter is searched
  */
-static inline kdb_boolean_t get_sw_wc_show_min_line_length(KeySet *ks)
+static inline kdb_boolean_t getSwWcShowMin_Line_Length(KeySet *ks)
 {
 	Key * searchKey = keyNew("/sw/wc/show/min_line_length",
 		KEY_CASCADING_NAME, KEY_END);
@@ -592,12 +592,12 @@ static inline kdb_boolean_t get_sw_wc_show_min_line_length(KeySet *ks)
  * false
 
  *
- * \see set_sw_wc_show_min_line_length
+ * \see setSwWcShowMin_Line_Length
  *
  * \param ks the keyset where the parameter is added or replaced
  * \param n is the value to set in the parameter
  */
-static inline void set_sw_wc_show_min_line_length(KeySet *ks, kdb_boolean_t n)
+static inline void setSwWcShowMin_Line_Length(KeySet *ks, kdb_boolean_t n)
 {
 	Key * found = ksLookupByName(ks, "/sw/wc/show/min_line_length", 0);
 	const char *s = bool_to_string(n);
@@ -614,6 +614,6 @@ static inline void set_sw_wc_show_min_line_length(KeySet *ks, kdb_boolean_t n)
 }
 
 
-#endif // ELEKTRA_GEN_E31EBE21_CC2F_45F4_8388_ABB721F236D4_H
+#endif // ELEKTRA_GEN_94D30966_9D02_4CC3_B475_1EFE15E4FC54_H
 
 

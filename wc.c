@@ -1,6 +1,3 @@
-#include "wc.h"
-#include "genopt.h"
-
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
@@ -9,6 +6,10 @@
 #include <stdio.h>
 #include <errno.h>
 #include <ctype.h>
+
+// Elektra
+#include "wc.h"
+#include "genopt.h"
 
 #define BUF_SIZ 4096
 
@@ -69,14 +70,14 @@ void process_file(KeySet * conf, char * file)
 
     close(fd);
 
-    if(!get_sw_wc_show_no_default_args(conf) || get_sw_wc_show_lines(conf))
+    if(!getSwWcShowNoDefaultArgs(conf) || getSwWcShowLines(conf))
     {
-        printf ("%c%d", get_sw_wc_show_separator(conf), lines);
+        printf ("%c%d", getSwWcShowSeparator(conf), lines);
     }
 
-    if(!get_sw_wc_show_no_default_args(conf) || get_sw_wc_show_words(conf))
+    if(!getSwWcShowNoDefaultArgs(conf) || getSwWcShowWords(conf))
     {
-        printf ("%c%d", get_sw_wc_show_separator(conf), words);
+        printf ("%c%d", getSwWcShowSeparator(conf), words);
     }
 
     printf (" %s\n", file);

@@ -56,7 +56,7 @@ include CMakeFiles/code_generation.dir/progress.make
 CMakeFiles/code_generation:
 	/Users/dominik/Documents/xcode/Elektra/libelektra/src/tools/gen/gen /Users/dominik/Documents/Jobs/Elektra/elektra_usability_gen/specification.ini /Users/dominik/Documents/xcode/Elektra/libelektra/src/tools/gen/template/genopt.h -o genopt.h
 	/Users/dominik/Documents/xcode/Elektra/libelektra/src/tools/gen/gen /Users/dominik/Documents/Jobs/Elektra/elektra_usability_gen/specification.ini /Users/dominik/Documents/xcode/Elektra/libelektra/src/tools/gen/template/genopt.c -o genopt.c
-	/Users/dominik/Documents/xcode/Elektra/libelektra/src/tools/gen/gen /Users/dominik/Documents/Jobs/Elektra/elektra_usability_gen/specification.ini /Users/dominik/Documents/xcode/Elektra/libelektra/src/tools/gen/template/template.h > wc.h
+	/Users/dominik/Documents/xcode/Elektra/libelektra/src/tools/gen/gen /Users/dominik/Documents/Jobs/Elektra/elektra_usability_gen/specification.ini /Users/dominik/Documents/xcode/Elektra/libelektra/src/tools/gen/template/template.h > /Users/dominik/Documents/Jobs/Elektra/elektra_usability_gen/wc.h
 
 code_generation: CMakeFiles/code_generation
 code_generation: CMakeFiles/code_generation.dir/build.make
