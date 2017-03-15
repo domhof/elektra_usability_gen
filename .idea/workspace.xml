@@ -14,11 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73d90a2c-9893-49f9-88ae-4f285154c941" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wc.dir/wc.c.o" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wc.c" afterPath="$PROJECT_DIR$/wc.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wc.h" afterPath="$PROJECT_DIR$/wc.h" />
-    </list>
+    <list default="true" id="73d90a2c-9893-49f9-88ae-4f285154c941" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
