@@ -13,8 +13,8 @@
  * \warning this is a generated file, do not modify it
  * \warning this is a prototype and not production code
  */
-#ifndef ELEKTRA_GEN_1321C402_9E27_4BFF_A862_8EDC9A6E6F41_H
-#define ELEKTRA_GEN_1321C402_9E27_4BFF_A862_8EDC9A6E6F41_H
+#ifndef ELEKTRA_GEN_F2606F2B_2390_4D2D_B39A_1E39688E5F9A_H
+#define ELEKTRA_GEN_F2606F2B_2390_4D2D_B39A_1E39688E5F9A_H
 
 #include "kdb.h"
 #include "kdbtypes.h"
@@ -468,42 +468,9 @@ static inline void elektraSetSwWcShowSeparator(KeySet *ks, kdb_char_t n)
  */
 static inline kdb_boolean_t elektraGetSwWcShowNoDefaultArgs(KeySet *ks)
 {
-	// override
-	Key * searchKey = keyNew("/sw/wc/show/lines",
+	Key * searchKey = keyNew("/sw/wc/show/no_default_args",
 		KEY_CASCADING_NAME, KEY_END);
 	Key * found = ksLookup(ks, searchKey, 0);
-	if (!found)
-	{
-		elektraKeySetName(searchKey, "/sw/wc/show/words", KEY_CASCADING_NAME);
-		found = ksLookup(ks, searchKey, 0);
-	}
-	if (!found)
-	{
-		elektraKeySetName(searchKey, "/sw/wc/show/chars", KEY_CASCADING_NAME);
-		found = ksLookup(ks, searchKey, 0);
-	}
-	if (!found)
-	{
-		elektraKeySetName(searchKey, "/sw/wc/show/bytes", KEY_CASCADING_NAME);
-		found = ksLookup(ks, searchKey, 0);
-	}
-	if (!found)
-	{
-		elektraKeySetName(searchKey, "/sw/wc/show/max_line_length", KEY_CASCADING_NAME);
-		found = ksLookup(ks, searchKey, 0);
-	}
-	if (!found)
-	{
-		elektraKeySetName(searchKey, "/sw/wc/show/min_line_length", KEY_CASCADING_NAME);
-		found = ksLookup(ks, searchKey, 0);
-	}
-	// now the key itself
-	if (!found)
-	{
-
-		elektraKeySetName(searchKey, "/sw/wc/show/no_default_args", KEY_CASCADING_NAME);
-		found = ksLookup(ks, searchKey, 0);
-	}
 
 	keyDel(searchKey);
 
@@ -614,6 +581,6 @@ static inline void elektraSetSwWcShowMinLineLength(KeySet *ks, kdb_boolean_t n)
 }
 
 
-#endif // ELEKTRA_GEN_1321C402_9E27_4BFF_A862_8EDC9A6E6F41_H
+#endif // ELEKTRA_GEN_F2606F2B_2390_4D2D_B39A_1E39688E5F9A_H
 
 
